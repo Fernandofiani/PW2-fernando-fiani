@@ -6,7 +6,7 @@
         $altura = floatval($_POST["Altura"]);
     
     if ($Comprimento == 0 || $Largura == 0 || $Altura ==0) {
-            echo "<p style='color: red;'>Erro: a quantidade de combustível deve ser maior que zero.</p>";
+            echo "<p style='color: red;'>Erro: os valores inseridos são invalidos.</p>";
     }else{
         $volume = $Comprimento * $Largura * $Altura;
         echo "<h3>Resultado</h3>";
