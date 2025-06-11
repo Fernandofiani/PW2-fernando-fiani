@@ -1,0 +1,13 @@
+composer - v
+
+node -v(npm install -g typescript)
+
+# Run as administrator...
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
+
+
+composer global require laravel/installer
+
+laravel new <Nome da aplicação>
+
+composer run dev(Para rodar a aplicação)

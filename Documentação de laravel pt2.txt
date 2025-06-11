@@ -1,0 +1,10 @@
+#Dentro da pasta da  aplicação#
+1)composer install
+2)npm install]
+3)npm run build 
+4)copiar o arquivo .env example e renomear para .env
+5)php artisan key:generate
+6)composer run dev
+
+#Se der errado#
+-php artisan migrate
