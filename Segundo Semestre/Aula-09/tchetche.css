@@ -1,0 +1,44 @@
+body{
+    background-color:rgb(88, 87, 87);
+}
+
+/* classe para estilizar os botões*/
+.botao{
+    background-color:rgb(57, 230, 230);
+    border: 2px solid black;
+    border-radius: 15%;
+    padding: 0.4%;
+    margin: 1%;
+    margin: 0.5%;
+    font-size:xx-large;
+}
+
+.botao:hover{
+    background-color:rgb(37, 146, 146) ;
+    transition-duration: 1s;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.container{
+    margin: auto;
+    margin-top: 13%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(0, 132, 255);
+    width: max-content;
+    height: 350px;
+    padding:3%;
+    border:2px solid black;
+    border-radius:30px;
+}
+
